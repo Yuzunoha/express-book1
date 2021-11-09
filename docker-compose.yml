@@ -5,6 +5,6 @@ services:
     build:
       context: ./docker/app
     volumes:
-      - ./express-app:/express-app
+      - ./express-app:/root/express-app
     ports:
       - 80:80

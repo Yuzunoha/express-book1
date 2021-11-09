@@ -1,3 +1,3 @@
 FROM node
 
-WORKDIR /express-app
+WORKDIR /root/express-app
