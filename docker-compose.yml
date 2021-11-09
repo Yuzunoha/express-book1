@@ -3,8 +3,6 @@ services:
   app:
     build:
       context: ./docker/app
-      args:
-        DOCKER_UID: ${DOCKER_UID:-1000}
     volumes:
       - ./express-app:/express-app
     ports:
